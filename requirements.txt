@@ -4,3 +4,4 @@ uvicorn==0.17.4
 streamlit~=1.10.0
 requests~=2.28.0
 pycaret
+wheel
