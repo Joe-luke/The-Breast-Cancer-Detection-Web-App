@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 
 # load model
-loaded_model = pickle.load(open("C:/Users/HP/Desktop/The Breast/trained_model.sav", "rb"))
+loaded_model = pickle.load(open("trained_model.sav", "rb"))
 
 input_data = (
     13.54, 14.36, 87.46, 566.3, 0.09779, 0.08129, 0.06664, 0.04781, 0.1885, 0.05766, 0.2699, 0.7886, 2.058, 23.56,
