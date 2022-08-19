@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # load model
-loaded_model = pickle.load(open("C:/Users/HP/Desktop/The Breast/trained_model.sav", "rb"))
+loaded_model = pickle.load(open("trained_model.sav", "rb"))
 
 
 # Prediction function
